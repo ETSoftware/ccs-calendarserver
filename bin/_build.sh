@@ -582,7 +582,7 @@ c_dependencies () {
       using_system "SASL";
     fi;
   else
-    local v="2.1.26";
+    local v="2.1.27";
     local n="cyrus-sasl";
     local p="${n}-${v}";
 
