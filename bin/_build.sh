@@ -586,7 +586,7 @@ c_dependencies () {
     local n="cyrus-sasl";
     local p="${n}-${v}";
 
-    c_dependency -m "a7f4e5e559a0e37b3ffc438c9456e425" \
+    c_dependency -m "a33820c66e0622222c5aefafa1581083" \
       "CyrusSASL" "${p}" \
       "https://github.com/cyrusimap/cyrus-sasl/releases/download/${p}/${p}.tar.gz" \
       --disable-macos-framework;
